@@ -1,4 +1,4 @@
-package org.alexeykalina.vfg
+package org.alexeykalina.vfg.vk
 
 data class VkResponse(val items: List<User>?)
 

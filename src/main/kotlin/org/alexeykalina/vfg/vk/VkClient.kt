@@ -1,4 +1,4 @@
-package org.alexeykalina.vfg
+package org.alexeykalina.vfg.vk
 
 import com.google.gson.Gson
 import java.net.URL
