@@ -1,0 +1,21 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.3.41'
+    id 'application'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.neo4j.driver:neo4j-java-driver:1.7.2'
+    compile 'com.google.code.gson:gson:2.8.5'
+    implementation platform('org.jetbrains.kotlin:kotlin-bom')
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
+    testImplementation 'org.jetbrains.kotlin:kotlin-test'
+    testImplementation 'org.jetbrains.kotlin:kotlin-test-junit'
+}
+
+application {
+    mainClassName = 'org.alexeykalina.vfg.AppKt'
+}
